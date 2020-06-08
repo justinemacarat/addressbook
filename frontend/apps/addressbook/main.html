@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>{{i18n.Title}}</title>
+
+	<script type="module">
+		import { app_contacts } from "./components/app-contacts/app-contacts.mjs"; app_contacts.register();
+		import { show_contacts } from "./components/show-contacts/show-contacts.mjs"; show_contacts.register();
+		import { update_contacts } from "./components/update-contacts/update-contacts.mjs"; update_contacts.register();
+
+		show_contacts.showContacts();
+	</script>
+</head>
+
+<body>
+    <app-contacts></app-contacts>
+</body>
+
+</html>

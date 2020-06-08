@@ -1,0 +1,7 @@
+{
+    "/apis/add-contact":"/apis/addContact.js",
+    "/apis/get-contacts":"/apis/getContacts.js",
+    "/apis/update-contacts":"/apis/updateContacts.js",
+    "/apis/delete-contacts":"/apis/deleteContacts.js"
+
+}

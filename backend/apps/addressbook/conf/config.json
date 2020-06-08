@@ -1,0 +1,10 @@
+{
+    "MYSQL": {
+        "host": "localhost",
+        "user": "root",
+        "password": "password",
+        "database": "addressbook",
+        "connectionLimit": 10,
+        "insecureAuth" : true
+    }
+} 

@@ -1,0 +1,19 @@
+<link rel="stylesheet" href="./components/show-contacts/show-contacts.css">
+
+<div class="row">
+    <div class="main">  
+        <h2>View Added Contacts</h2>
+        <div class="row">              
+            {{#contacts}}
+            <div class="column"> 
+                <div class="card">
+                    <p>Contact ID: {{contact_id}}</p>
+                    <p>Name: {{firstname}} {{lastname}}</p>
+                    <p>Phone No: {{phone}}</p>
+                    <p>Email: {{email}}</p>
+                </div>    
+            </div>
+            {{/contacts}}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="./components/app-contacts/app-contacts.css">
+
+<div class="app-contacts">
+    <div class="row">
+        <div class="main">
+            <h2>Add Contacts</h2>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" required>
+        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" required>
+        
+                <label for="lname">Phone</label>
+                <input type="text" id="phone" name="phone" required>
+        
+                <label for="lname">Email</label>
+                <input type="text" id="email" name="email" required>
+
+                <button onclick="monkshu_env.components['app-contacts'].addContact()">Add Contact</button>
+        </div>
+    </div>
+</div>
+
+<update-contacts></update-contacts>
+<show-contacts></show-contacts>

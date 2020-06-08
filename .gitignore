@@ -1,0 +1,3 @@
+backend/server/logs
+frontend/server/logs
+node_modules/
